@@ -1,4 +1,4 @@
-'''
+"""
 one line to give the program's name and a brief idea of what it does.>
 Copyright (C) <2020>  <Tito Diogo Lagarto da Costa Correia>
 
@@ -14,17 +14,14 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
-'''
+"""
 
 # -*- coding: utf-8 -*-
-from PIL import ImageGrab
 import cv2
 import math
 import numpy as np
 import threading
 import time
-import pyautogui
-import simple_pid
 from simple_pid import PID
 
 
